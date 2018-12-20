@@ -1,0 +1,12 @@
+import java.util.*;
+import java.io.*;
+public class MathMan
+{
+  public static void main(String[]args) throws IOException
+  {
+    scanner kb=new scanner(System.in);
+    String cat=kb.nextLine();
+    System.out.println("Hello"+cat); 
+    //ArrayList<Integer> cat=new ArrayList<Integer>();
+  }
+}
